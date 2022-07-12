@@ -5,7 +5,10 @@ import { Link } from "react-router-dom";
 import Posts from "./Posts";
 import Pagination from "./Pagination";
 
-const URL = "http://jsonplaceholder.typicode.com/posts";
+//For some reason the JSON PLACEHOLDER API is not working, so we made use with Hipster Ipsum,
+//Thank you Hipster Ipsum.
+//const URL = "http://jsonplaceholder.typicode.com/posts";
+const URL = "https://hipsum.co/api/?type=hipster-latin&paras=100";
 
 function PaginationApp() {
   const [posts, setPosts] = useState([]);

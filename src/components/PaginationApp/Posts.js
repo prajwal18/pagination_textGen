@@ -6,9 +6,9 @@ const Posts = ({ posts, isLoading }) => {
     return (
         <ul className="list-group mb-4">
             {
-                posts.map((post) => (
-                    <li key={post.id} className="list-group-item">
-                        {post.title}
+                posts.map((post, index) => (
+                    <li key={index} className="list-group-item">
+                        {post.substring(0, 200)}
                     </li>
                 ))
             }
