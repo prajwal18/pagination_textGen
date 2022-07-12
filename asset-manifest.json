@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pagination_textGen/static/css/main.3abe951b.css",
+    "main.js": "/pagination_textGen/static/js/main.dad329f9.js",
+    "index.html": "/pagination_textGen/index.html",
+    "main.3abe951b.css.map": "/pagination_textGen/static/css/main.3abe951b.css.map",
+    "main.dad329f9.js.map": "/pagination_textGen/static/js/main.dad329f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3abe951b.css",
+    "static/js/main.dad329f9.js"
+  ]
+}
