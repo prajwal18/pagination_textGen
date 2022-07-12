@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Text Generator - (Text Area) */
+.text-area{
+  color: rgb(38, 38, 38);
+  background-color: rgba(154, 154, 154, 0.3);
+}
